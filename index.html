@@ -3,40 +3,19 @@
 <style type="text/css">
 body{
 background-color:#000000;
-background-image: url('https://i.imgur.com/ZxjTGvH.png') !important; 
+background-image: url('') !important; 
 background-repeat:no-repeat !important; 
 background-position:center !important; 
 background-size:contain;
 }
 
-::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar {width: 4px; height: 4px;}
 ::-webkit-scrollbar-track {background: none;}
 ::-webkit-scrollbar-thumb {background: #14601E;}
 
-body:hover #container {
-opacity:1;
--webkit-transition: all 2s ease-out;
--moz-transition: all 2s ease-out;
-transition: all 2s ease-out;
-}
-
-#container {
-opacity:0;
-position:absolute;
-background-color:#000000;
-width:100%;
-height:100%;
-top:0%;
-left:0%;
--webkit-transition: all 2s ease-out;
--moz-transition: all 2s ease-out;
-transition: all 2s ease-out;
-}
-
 #centerpic {
 position:absolute;
-border:2px solid #23121F;
-background-color:rgba(0, 0, 0, 0.8);
+border:2px solid #40C649;
 width:20%;
 height:60%;
 top:20%;
@@ -45,9 +24,6 @@ background-image: url('https://i.imgur.com/DCqzqDG.jpg') !important;
 background-repeat:no-repeat !important; 
 background-position:center !important; 
 background-size:cover;
--webkit-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
--moz-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
@@ -63,102 +39,173 @@ background-size:cover;
 transition: all 0.8s ease-out;
 }
 
-#topleft {
+#pic1 {
 position:absolute;
-border:2px solid #23121F;
-background-color:rgba(0, 0, 0, 0.8);
-width:10%;
-height:20%;
+border:2px solid #40C649;
+width:9%;
+height:29%;
 top:20%;
-left:28%;
-background-image: url('https://i.imgur.com/xirqpCL.jpg') !important; 
+left:20%;
+background-image: url('https://i.imgur.com/mFIaQjE.jpg') !important; 
 background-repeat:no-repeat !important; 
-background-position:top !important; 
+background-position:center !important; 
 background-size:cover;
--webkit-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
--moz-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
 }
 
-#bottomleft {
+#text1 {
 position:absolute;
-border:2px solid #23121F;
-background-color:rgba(0, 0, 0, 0.8);
 padding:1%;
-overflow:auto;
-width:8%;
-height:30.5%;
-top:45%;
-left:28%;
-color:#FFFFFF;
-font-size:1.5vh;
-font-family: 'Ubuntu', sans-serif;
--webkit-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
--moz-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-}
-
-#topright {
-position:absolute;
-border:2px solid #23121F;
-background-color:rgba(0, 0, 0, 0.8);
-padding:1%;
-overflow:auto;
-width:8%;
-height:30.5%;
-top:20%;
-left:62%;
-color:#FFFFFF;
-font-size:1.5vh;
-font-family: 'Ubuntu', sans-serif;
--webkit-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
--moz-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-}
-
-#bottomright {
-position:absolute;
-border:2px solid #23121F;
-background-color:rgba(0, 0, 0, 0.8);
-width:10%;
-height:20%;
-top:60%;
-left:62%;
-background-image: url('https://i.imgur.com/RARlGJb.jpg') !important; 
-background-repeat:no-repeat !important; 
-background-position:top !important; 
-background-size:cover;
--webkit-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
--moz-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-box-shadow: 0px 0px 16px 0px rgba(93,189,100,1);
-}
-
-.tabs {
-display:block;
 opacity:0;
-width:100%;
-height:100%;
-background-color:#000000;
-color:#b30514;
+overflow:auto;
+background-color:rgba(0, 0, 0, 0.7);
+border:2px solid #40C649;
+width:7%;
+height:24.7%;
+top:20%;
+left:20%;
+color:#FFFFFF;
+font-size:1.4vh;
 text-align:center;
-text-transform:uppercase;
-font-family: 'PT Sans', sans-serif;
-font-size:1vh;
-line-height:4;
+font-family: 'Ubuntu', sans-serif;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
-.tabs:hover {
+#pic2 {
+position:absolute;
+border:2px solid #40C649;
+width:9%;
+height:29%;
+top:20%;
+left:30%;
+background-image: url('https://i.imgur.com/pWtLwcp.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important; 
+background-size:cover;
+}
+
+#text2 {
+position:absolute;
+padding:1%;
+opacity:0;
+overflow:auto;
+background-color:rgba(0, 0, 0, 0.7);
+border:2px solid #40C649;
+width:7%;
+height:24.7%;
+top:20%;
+left:30%;
+color:#FFFFFF;
+font-size:1.4vh;
+text-align:center;
+font-family: 'Ubuntu', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic3 {
+position:absolute;
+border:2px solid #40C649;
+width:19%;
+height:29%;
+top:51%;
+left:20%;
+background-image: url('https://i.imgur.com/feKFRik.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important; 
+background-size:cover;
+}
+
+#text3 {
+position:absolute;
+padding:1%;
+opacity:0;
+overflow:auto;
+background-color:rgba(0, 0, 0, 0.8);
+border:2px solid #40C649;
+width:17%;
+height:24.7%;
+top:51%;
+left:20%;
+color:#FFFFFF;
+font-size:1.5vh;
+font-family: 'Ubuntu', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic4 {
+position:absolute;
+border:2px solid #40C649;
+width:19%;
+height:29%;
+top:20%;
+left:61%;
+background-image: url('https://i.imgur.com/2bvGBIq.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+}
+
+#text4 {
+position:absolute;
+padding:1%;
+opacity:0;
+overflow:auto;
+background-color:rgba(0, 0, 0, 0.7);
+border:2px solid #40C649;
+width:17%;
+height:24.7%;
+top:20%;
+left:61%;
+color:#FFFFFF;
+font-size:1.5vh;
+font-family: 'Ubuntu', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic5 {
+position:absolute;
+border:2px solid #40C649;
+width:19%;
+height:29%;
+top:51%;
+left:61%;
+background-image: url('https://i.imgur.com/OtxSwK5.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important; 
+background-size:cover;
+}
+
+#text5 {
+position:absolute;
+padding:1%;
+opacity:0;
+overflow:auto;
+background-color:rgba(0, 0, 0, 0.8);
+border:2px solid #40C649;
+width:17%;
+height:24.7%;
+top:51%;
+left:61%;
+color:#FFFFFF;
+font-size:1.5vh;
+font-family: 'Ubuntu', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#text1:hover,#text2:hover,#text3:hover,#text4:hover,#text5:hover {
 opacity:1;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
-}
-
-#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12 {
-display: none;
 }
 
 h1 {
@@ -201,22 +248,57 @@ letter-spacing:2px;
 <script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
 <script>function changeNavigation1(id) {document.getElementById('title').innerHTML=document.getElementById(id).innerHTML}</script>
 
-<div id="container">
 <div id="centerpic"></div>
-<div id="topleft"></div>
-<div id="bottomleft">
-<h1>Poltergeist</h1>
-Spirits of the once living who still amass enough energy to manifest on the physical plane through some means. Typically this is only possible in short bursts thanks to numerous variables that separate the world of the living from the ethereal dead. While an individual soul’s personal reasons for continuing to take the struggle on themselves instead of moving on into the afterlife vary, Poltergeists are often malevolent, driven by insatiable rage or vengeance. 
-<br><br>
-<p align="center"><b>"</b><i>Allow me to introduce Dubheasa O'Connor.</i> <b>"</b></p>
-<br>
-Once a warrior of considerable power--an infamous Mage from a very particular powerful family line of magic practitioners--who feared a lack of purpose to her existence once her life was finally lost. Dubheasa’s death was honorable, but fear and rage kept her from finding peace in passing. Years of extensive training under the arcane arts allowed her to find a method of continuing her stay on the physical plane. Now technically immortal she continues to wander the multiverse in search of worthy opponents that can ignite the feeling of adrenaline she craves like a drug.
-<br><br>
-<b>[</b> Hey, wanna see something neat? Hover the mouse cursor over the central image! <b>]</b>
+<div id="pic1"></div>
+<div id="text1">
+<br><b>Name:</b><br>Dubheasa O'Connor<br><br>
+<b>Diction:</b><br>Duh-vee-suh<br><br>
+<b>Alias:</b><br>Nethermancer<br><br>
+<b>Gender:</b><br>Female<br><br>
+<b>Race:</b><br>Poltergeist
 </div>
-<div id="topright">
+<div id="pic2"></div>
+<div id="text2">
+<br>
+<b>Hair Color:</b><br>Black<br><br>
+<b>Eye COlor:</b><br>O'Connor Emerald<br><br>
+<b>Complexion:</b><br>Deathly Pale<br><br>
+<b>Height:</b><br>Varies<br><br>
+<b>Weight:</b><br>Varies
+</div>
+<div id="pic3"></div>
+<div id="text3">
+<h1>Racial Abilities</h1>
+<b>Spiritual Longevity</b><br>
+Technically an ageless entity despite once being human. The Poltergeist is a spirit that once inhabited a human mortal coil which refuses to pass on to the afterlife as intended, clinging to the physical plane mostly through sheer willpower and magic. Since she is already dead she does not age, and cannot die from natural causes (diseases, illnesses, poisoning, old age, any natural nonmagic source she possesses an immunity to).
+<br><br>
+<b>Vessel Compatibility</b><br>
+Desperate to find any host to keep her living and kicking, she often finds herself incredibly compatible with constructs and Conjurations of her own creation, allowing her to take to them without rejecting them as proper bodies. Essentially by creating her own hosts she can function as the ultimate puppet master as though it were her own organic form long since passed. This is also extended to corpses of the fallen (though none of the magic abilities they had in life are inherited, only things like racials if enough of the body remains for such to be applicable), but unfortunately she does not have the capacity to possess the living, and decay is still a prominent problem/aspect forcing her to limit how long she can keep animating her chosen carcass.
+<br><br>
+<b>Spiritual Communion</b><br>
+As a spirit herself, Dubheasa can see and communicate other spirits fairly easily, even when they are being used in spells. She can see/sense others of her own ilk within a thirty foot radius of herself, even through counter-sensory based spells and abilities (intended to hide spirits only) that are Expert Mage in ranking or lower.
+<br><br>
+<b>Core</b><br>
+Since her actual state of being is without a tangible form (unless created or inhabited) her entire spiritual presence behaves like her “core.” Harming it at all with solid materials or constructs is impossible, things specifically designed to target spirits or energy based magics are required to injure or destroy her. A prominent weakness still exists; she is twice as weak to Soul Fire and hostile Spirit Force. Since she can’t bleed blood successful injuries to her core cause the bleeding of mana.
+<br><br>
+<b>Core Survival</b><br>
+She can exist just fine without a host but remains unable to legitimately interact with inanimate mundane objects in the physical plane while doing so.
+<br><br>
+<b>Ethereal Flight</b><br>
+As one might expect of an intangible being, friction or traction against a solid surface is not necessary for movement, allowing complete maneuverability in a three dimensional space. The “ground” can be vertical, horizontal, upside down, it doesn’t matter her spirit is not afflicted by gravity or the like. That being said, she can still only travel roughly fifty upward at the most.
+<br><br>
+<b>Spiritualist’s Call</b><br>
+While she cannot be summoned by any Spiritualist or Necromancer to be used in spells she can hear when they call out to the Spirit World to attract an accomplice, when the action is being performed in her vicinity (within the same chat area). This is an ability that is voluntary, and requires actual focus and acknowledgement to use, she has to be looking for summoners essentially.
+<br><br>
+<b>Body Switching</b><br>
+Moving from host to host is very simple and easy for her to do so long as there is one nearby she is actually capable of occupying.
+<br><br>
+<i>When obtaining a host the body’s appearance, height, weight, racials, etc, will vary completely on the nature of the body. Different spells for different host bodies and different fighting styles make up her kit.</i>
+</div>
+<div id="pic4"></div>
+<div id="text4">
 <h1>High Archmage</h1>
-<p align="center"><b>****** Prime</b></p>
+<p align="center"><b>Nethermancy</b> <a target="_blank" href="http://prime.chatango.com">Prime</a></p>
 <br>
 The average Mage is limited to an affiliation (or "attunement") between two separate trees. In order to mix the aspects of both into an entirely unique and new tree requires much study and a journey of enlightenment that ends with the apprentice rising to a rank path titled "Archmage." Access to both trees as individuals is still possible, but the ability to mix is so highly revered that reaching this goal often leads to the Mage forming new spells strictly under their new development.
 <br><br>
@@ -228,11 +310,20 @@ Our Poltergeist’s individual magic trees are as follows:
 <b>Necromancy:</b><br>
 <i>"The common Necromancer devotes their time to the collection of corpses, and the infusion of said corpses with their wicked mana. Through a unique mana type called Soul Fire, Necromancers may create artificial souls to be placed within the corpse of a once living being. Necromancers may also use this Soul Fire to assault their enemies; effects of Soul Fire vary from Necromancer to Necromancer, although it often damages the soul in some way. Necromancers may also use their magic to revive fallen comrades or enemies, reducing their will, but not their strength. A Necromancer may only revive mages of their current rank or below."</i>
 <br><br>
-<b>******</b> is the name of her unique tree, and its aspects consist of mixing both aforementioned ones together.
+<b>Nethermancy</b> is the name of her unique tree, and its aspects consist of mixing both aforementioned ones together.
 <br><br>
 <i>For a better reference on mechanics and how this works in the meta it is set up for please visit <a target="_blank" href="http://ulreich.weebly.com">Ulreich University</a>.</i>
 </div>
-<div id="bottomright"></div>
+<div id="pic5"></div>
+<div id="text5">
+<h1>Poltergeist</h1>
+Spirits of the once living who still amass enough energy to manifest on the physical plane through some means. Typically this is only possible in short bursts thanks to numerous variables that separate the world of the living from the ethereal dead. While an individual soul’s personal reasons for continuing to take the struggle on themselves instead of moving on into the afterlife vary, Poltergeists are often malevolent, driven by insatiable rage or vengeance. 
+<br><br>
+<p align="center"><b>"</b><i>Allow me to introduce Dubheasa O'Connor.</i> <b>"</b></p>
+<br>
+Once a warrior of considerable power--an infamous Mage from a very particular powerful family line of magic practitioners--who feared a lack of purpose to her existence once her life was finally lost. Dubheasa’s death was honorable, but fear and rage kept her from finding peace in passing. Years of extensive training under the arcane arts allowed her to find a method of continuing her stay on the physical plane. Now technically immortal she continues to wander the multiverse in search of worthy opponents that can ignite the feeling of adrenaline she craves like a drug.
+<br><br>
+<b>[</b> Hey, wanna see something neat? Hover the mouse cursor over the central image! <b>]</b>
 </div>
 
 <embed style="height: 0%; width: 0%;"src="Presence.mp3" autostart="true" loop="true">
